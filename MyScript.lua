@@ -13,7 +13,7 @@ button.Text = "Işınlan"
 button.Parent = screenGui
 
 -- Işınlanma mesafesi (5 santim = 0.05 metre)
-local teleportDistance = 0.05
+local teleportDistance = 300
 
 -- Butona tıklama olayını bağlama
 button.MouseButton1Click:Connect(function()
