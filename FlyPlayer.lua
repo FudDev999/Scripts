@@ -4,7 +4,7 @@ local gui = player:WaitForChild("PlayerGui")
 
 local flyButton = Instance.new("TextButton")
 flyButton.Size = UDim2.new(0, 200, 0, 50) -- Butonun boyutu
-flyButton.Position = UDim2.new(0.5, -100, 0.5, -75) -- Butonun konumu (ekranın ortasında, biraz yukarıda)
+flyButton.Position = UDim2.new(0.5, -100, 0.5, -25) -- Butonun konumu (ekranın ortasında, biraz yukarıda)
 flyButton.AnchorPoint = Vector2.new(0.5, 0.5) -- Butonun orta noktası
 flyButton.Text = "Uçur"
 flyButton.Parent = gui
